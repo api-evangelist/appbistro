@@ -1,7 +1,26 @@
 aid: appbistro
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appbistro.png
 name: AppBistro
-description: AppBistro is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: AppBistro, operated by MMTG Labs, was an application marketplace for the Facebook Pages
+  platform that let brands and page administrators discover, install, and manage third-party apps to
+  boost engagement and reach on their fan pages. It also built AppGalleries, a white-label app-store
+  platform. A TechCrunch Disrupt 2010 finalist, the San Francisco startup raised a $550K convertible
+  note (Sand Hill Angels, 500 Startups, i/o Ventures, Zelkova Ventures, Seraph Group, and angels
+  including Alfred Lin) and was acquired by mobile ad network InMobi on 2012-07-13, after which the
+  product and its five-person team (co-founders Ryan Merket and Nalin Mittal) wound down. The company
+  is defunct and appbistro.com no longer resolves; no live API, developer portal, or documentation
+  surface exists to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/appbistro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: inmobi
+x-acquired-date: '2012-07-13'
+x-legal-entity: MMTG Labs
+x-domain-status: nxdomain
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Facebook
+- App Marketplace
+- Social Media
+- White Label
+- Developer Tools
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,8 @@ maintainers:
 common:
 - type: Website
   url: https://appbistro.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
